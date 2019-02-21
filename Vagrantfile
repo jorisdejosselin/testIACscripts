@@ -23,8 +23,8 @@ Vagrant.configure("2") do |config|
     gru.vm.provider :virtualbox do |vb|
       vb.customize [
         "modifyvm", :id,
-        "--cpuexecutioncap", "50",
-        "--memory", "256",
+        "--cpuexecutioncap", "100",
+        "--memory", "1024",
       ]
     end
   end
@@ -37,8 +37,8 @@ Vagrant.configure("2") do |config|
       jerry.vm.provider :virtualbox do |vb|
         vb.customize [
           "modifyvm", :id,
-          "--cpuexecutioncap", "50",
-          "--memory", "256",
+          "--cpuexecutioncap", "100",
+          "--memory", "1024",
         ]
     end
   end
@@ -51,8 +51,8 @@ Vagrant.configure("2") do |config|
       stuart.vm.provider :virtualbox do |vb|
         vb.customize [
           "modifyvm", :id,
-          "--cpuexecutioncap", "50",
-          "--memory", "256",
+          "--cpuexecutioncap", "100",
+          "--memory", "1024",
         ]
     end
   end
@@ -65,8 +65,8 @@ Vagrant.configure("2") do |config|
       kevin.vm.provider :virtualbox do |vb|
         vb.customize [
           "modifyvm", :id,
-          "--cpuexecutioncap", "50",
-          "--memory", "256",
+          "--cpuexecutioncap", "100",
+          "--memory", "1024",
         ]
     end
   end
